@@ -1,6 +1,3 @@
-#Escribir un programa llamado numeros.rb , que reciba por linea de comandos la cantidad de lineas, y
-#dibuje el siguiente patrón:
-
 n = ARGV[0].to_i
 factor= 0
 

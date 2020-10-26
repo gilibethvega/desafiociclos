@@ -155,7 +155,7 @@ def arbol_navidad(n)
   end
 end
 
-puts "Bienvenido escoja el metodo que desea usar"
+puts "Bienvenido escoja el número del método que desea usar o la letra"
 
 def imprimir_menu
   puts "Menú"
@@ -172,23 +172,23 @@ opcion_menu= "cualquier valor"
 while opcion_menu != "Salir" || opcion_menu != "salir"
   imprimir_menu
   opcion_menu = gets.chomp
-  if opcion_menu == "1"
+  if opcion_menu == "1" || opcion_menu == "O" || opcion_menu == "o"
     puts "Ahora ingrese la cantidad de líneas"
     n = gets.chomp.to_i
     letra_o(n)   
-  elsif opcion_menu == "2"
+  elsif opcion_menu == "2" || opcion_menu == "I" || opcion_menu == "i"
     puts "Ahora ingrese la cantidad de líneas"
     n = gets.chomp.to_i
     letra_i(n)   
-  elsif opcion_menu == "3"
+  elsif opcion_menu == "3" || opcion_menu == "Z" || opcion_menu == "z"
     puts "Ahora ingrese la cantidad de líneas"
     n = gets.chomp.to_i
     letra_z(n)
-  elsif opcion_menu == "4"
+  elsif opcion_menu == "4" || opcion_menu == "X" || opcion_menu == "x"
     puts "Ahora ingrese la cantidad de líneas"
     n = gets.chomp.to_i
     letra_x(n)
-  elsif opcion_menu == "5"
+  elsif opcion_menu == "5" || opcion_menu == "0"
     puts "Ahora ingrese la cantidad de líneas"
     n = gets.chomp.to_i
     numero_0(n)
